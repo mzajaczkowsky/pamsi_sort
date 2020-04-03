@@ -35,7 +35,7 @@ T Sorts<T>::partitioning(T arr[], int first, int last)
 {
     //Przyjmujemy pierwwszy element jako os
     //wzgledem niego bedziemy dzielic tablice na mniejsze i wieksze elementy
-    T pivot = arr[first];
+    T pivot = arr[(first+last)/2];
     //Bedziemy iterowac po tablicy od dwoch stron
     int i = first;
     int j = last;
